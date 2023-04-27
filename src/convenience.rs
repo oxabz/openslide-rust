@@ -377,3 +377,6 @@ impl OpenSlide {
         Ok(())
     }
 }
+
+unsafe impl Send for OpenSlide {}
+
